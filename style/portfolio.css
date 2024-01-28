@@ -17,6 +17,10 @@
 }
 
 /* header and navigation style  */
+header{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .header{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -32,7 +36,7 @@ nav{
 .nav-tittle{
     font-weight: 800;
     font-size: 45px;
-    margin-top: 50px;
+    
 }
 nav ul{
     display: flex;
